@@ -7,7 +7,7 @@ This project is forked off of the barebones Python app using django provided by 
 
 This project makes use of Dinnerbone's MC Status API found [here](https://github.com/Dinnerbone/mcstatus.git) and packages the results into JSON that can be used on whatever webpage is desired to display the server status.
 
-##Sample usage
+## Sample usage
 ```javascript
 url = ''; // TODO - your Python app's URL here
 $.getJSON(url + "?callback=?",
